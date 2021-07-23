@@ -1,0 +1,29 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 100,
+            "driver": "SQLite",
+            "name": "bancoBot",
+            "database": "${workspaceFolder:ReputationBot}/database.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "bancoBot",
+            "database": "${workspaceFolder:ReputationBot}/database.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "meubanco",
+            "database": "${workspaceFolder:ReputationBot}/database.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "newbanco",
+            "database": "${workspaceFolder:ReputationBot}/meubanco.sqlite"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
